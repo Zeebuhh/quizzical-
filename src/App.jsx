@@ -63,9 +63,10 @@ function App() {
     event.preventDefault()
     if (restart) {
       setRestart(false)
-      setAnswers([])
+      setAnswers({})
       setIsSubmitted(false)
       setScore(0)
+      loadQuestions()
       return
     }
     var data = new FormData(event.target);
