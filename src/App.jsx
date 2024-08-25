@@ -75,6 +75,8 @@ function App() {
     setIsSubmitted(true)
   }
 
+// HELOOOOO
+
   function calcScore() {
     let newScore = 0
     quizData.forEach((question, index) => {
